@@ -1,0 +1,1 @@
+curl 'https://airflow.apache.org/docs/apache-airflow/2.10.4/docker-compose.yaml' -o "docker-compose.yaml"

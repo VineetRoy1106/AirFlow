@@ -1,0 +1,13 @@
+1. curl 'https://airflow.apache.org/docs/apache-airflow/2.10.4/docker-compose.yaml' -o "docker-compose.yaml"
+
+1.5. IN DOCKER-COMPOSE.YAML change AIRFLOW__CORE__LOAD_EXAMPLES as 'false'
+
+2.  mkdir -p ./dags ./logs ./plugins ./config
+
+3. docker compose up airflow-init
+
+3.5,    docker-compose up -d
+
+4. http://localhost:8080/
+
+5.  _PIP_ADDITIONAL_REQUIREMENTS: scikit-learn matplotlib 
